@@ -1,0 +1,226 @@
+body{
+    margin:0px;
+    
+}
+.top-header{
+    height:500px;
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+.half-width{
+    margin-left: 5%;
+width:35%;
+height:100%;
+padding-left:2% ;
+float: left;
+font-family: 'Open Sans', sans-serif;
+}
+
+.h1{
+    font-size:40px;
+}
+.anchor{
+ text-decoration: none;
+ padding:10px 20px;
+ color:white;
+ border-radius:5px;
+background-image: linear-gradient(40deg,blue,skyblue);
+ margin-top:3px;   
+ transition: .5s;
+}
+.anchor:hover{
+    text-decoration: none;
+ padding:10px 20px;
+ color:black;
+ transition: .5s;
+ 
+ border-radius:5px;
+ background: white;
+border: 3px solid tomato;
+ margin-top:3px;  
+}
+.middle{
+height:100%;
+width:35%;
+margin-left:5%;
+float: left;
+
+}
+.middle img{
+    height:100%;
+    width:100%;
+}
+.search-bar{
+    height:100%;
+    width:18%;
+    /* background: tomato; */
+    float: left;
+}
+.inp{
+    height:30px;
+    margin-top:5%;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:5px;
+outline: none;
+    }
+.inp:hover{
+   box-shadow:inset 1px 1px 6px silver;
+
+}
+.dream{
+    height:500px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.dream-pic{
+   width:50%; 
+   height:100%;
+float: left;
+}
+.dream-img{
+    height:100%;
+    width:75%;
+    margin-left:13%;
+
+}
+.Big-Dream{
+    margin-top:5%;
+ width:80%;
+
+}
+.Big-Dream   p{
+    text-align:left;
+}
+.no{
+    color: tomato;
+}
+.Experiances{
+    height:500px;
+    width:100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+.baby{
+width:40%;
+height:60%;
+float: left;
+border-left: 7px solid;
+border-image:  linear-gradient( 45deg,rgba(88, 40, 20, 0.171),blue) ;
+border-image-slice:1;
+ box-shadow: 10px 10px 50px gray; 
+ margin-right:5%;
+margin-left:2%;
+border-radius: 5px;
+
+}
+.boss{
+    width:40%;
+    height:60%;
+    float: left;
+    border-left:7px solid ;
+    border-image:  linear-gradient(45deg, tomato,blue);
+    border-image-slice:1;
+    box-shadow: 6px 6px 50px gray;
+    border-radius: 5px;
+}
+.border{
+    width:44px;
+height:30px;
+padding-left: 12px;
+border-left: 7px solid mediumspringgreen;
+
+}
+.baby-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left: 10px;
+font-size:26px;
+}
+.para{
+text-align:left;
+padding-left:10px;
+color: silver;
+}
+.ss{
+    color: tomato;
+}
+.world{
+    text-shadow: 1px 1px  rgb(255, 99, 71);
+}
+
+footer{
+    height:700px;
+    width:100%;
+}
+.input-side{
+float: left;
+    width:50%;
+    height: 100%; 
+   background:blue;
+}
+.question{
+width: 50%;
+float: left;
+background: blue;
+height: 100%;
+}
+
+.inp2{
+    height:38px;
+    width:480px;
+    margin-left:5%;
+    border:2px solid tomato;
+
+    outline: none;
+    border-radius: 6px;
+margin-top:30px;
+
+}
+
+.ar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:23px;
+    width:480px;
+    margin-left:5%;
+    border:2px solid tomato;
+height:130px;
+    outline: none;
+    border-radius: 6px;
+margin-top:30px;
+}
+
+.btn{
+margin-top:30px;
+
+    height:38px;
+outline: none;
+border: 2px;
+    width:120px;
+    border-radius: 6px;
+    margin-left:5%;
+    color: white;
+    background:rgba(0, 250, 154, 0.342);
+    cursor: pointer;
+}
+.question2{
+   border-left:7px solid; 
+   border-image:linear-gradient(tomato,lightSalmon);
+   border-image-slice: 1;
+   color: red;
+   padding-left: 2px;
+}
+.av{
+    
+    font-size: 21px;
+    color: gray;
+   
+    text-align: center;
+}
